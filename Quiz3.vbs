@@ -2,7 +2,9 @@ Option Explicit
 
 Dim score
 score = 0
-
+msgbox "Succesfully loaded everything", 0+64, "Succesfully loaded"
+msgbox "DISCLAIMER: This file doesn't contain a virus or mallware. Virus scan by McCafe Antivirus",0+48, "No virus"
+msgbox "Vul de juiste antwoorden in. Als je 1 antwoord fout hebt, Moet je het opnieuw proberen. Veel succes.",0+32,"Tutorial"
 ' Vraag 1
 Do
     Dim antwoord1
@@ -46,3 +48,4 @@ Do
 Loop
 
 MsgBox "Je hebt de quiz voltooid met een score van " & score & " van de 3!", vbInformation, "Quiz voltooid"
+MsgBox "Copyright 2025 super_man2775"
