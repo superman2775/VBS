@@ -21,10 +21,10 @@ Loop
 
 ' Vraag 2
 Do
-    Dim antwoord2
-    antwoord2 = InputBox("Zeg eens B", "Quiz - Vraag 2")
+    Dim antwoord1
+    antwoord1 = InputBox("Zeg eens B", "Quiz - Vraag 2")
 
-     If LCase(antwoord2) = "b" Then
+     If LCase(antwoord1) = "b" Then
         MsgBox "Correct!", vbInformation, "Goed gedaan"
         score = score + 1
         Exit Do
@@ -35,10 +35,10 @@ Loop
 
 ' Vraag 3
 Do
-    Dim antwoord3
-    antwoord3 = InputBox("Zeg eens C", "Quiz - Vraag 3")
+    Dim antwoord1
+    antwoord1 = InputBox("Zeg eens C", "Quiz - Vraag 3")
 
-    If LCase(antwoord3) = "c" Then
+    If LCase(antwoord1) = "c" Then
         MsgBox "Correct!", vbInformation, "Goed gedaan"
         score = score + 1
         Exit Do
