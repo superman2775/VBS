@@ -10,7 +10,7 @@ Do
     Dim antwoord1
     antwoord1 = InputBox("Zeg eens A", "Quiz - Vraag 1")
 
-    If antwoord1 = "A" Then
+     If LCase(antwoord1) = "a" Then
         MsgBox "Correct!", vbInformation, "Goed gedaan"
         score = score + 1
         Exit Do
@@ -24,7 +24,7 @@ Do
     Dim antwoord2
     antwoord2 = InputBox("Zeg eens B", "Quiz - Vraag 2")
 
-    If antwoord2 = "B" Then
+     If LCase(antwoord1) = "b" Then
         MsgBox "Correct!", vbInformation, "Goed gedaan"
         score = score + 1
         Exit Do
@@ -38,7 +38,7 @@ Do
     Dim antwoord3
     antwoord3 = InputBox("Zeg eens C", "Quiz - Vraag 3")
 
-    If LCase(antwoord3) = "leeuw" Then
+    If LCase(antwoord3) = "c" Then
         MsgBox "Correct!", vbInformation, "Goed gedaan"
         score = score + 1
         Exit Do
