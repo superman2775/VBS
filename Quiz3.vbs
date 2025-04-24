@@ -50,6 +50,35 @@ Do
     End If
 Loop
 
-MsgBox "Je hebt de quiz voltooid met een score van " & score & " van de 3!", vbInformation, "Quiz voltooid"
+
+' Vraag 4
+Do
+    Dim antwoord4
+    antwoord4 = InputBox("d", "Quiz - Vraag 4")
+
+    If LCase(antwoord4) = "d" Then
+        MsgBox "Correct!", vbInformation, "Goed gedaan"
+        score = score + 1
+        Exit Do
+    Else
+        MsgBox "Fout antwoord. Probeer het opnieuw.", vbExclamation, "Oops!"
+    End If
+Loop
+
+' Vraag 5
+Do
+    Dim antwoord5
+    antwoord5 = InputBox("e", "Quiz - Vraag 5")
+
+    If LCase(antwoord5) = "e" Then
+        MsgBox "Correct!", vbInformation, "Goed gedaan"
+        score = score + 1
+        Exit Do
+    Else
+        MsgBox "Fout antwoord. Probeer het opnieuw.", vbExclamation, "Oops!"
+    End If
+Loop
+
+MsgBox "Je hebt de quiz voltooid met een score van " & score & " van de 5!", vbInformation, "Quiz voltooid"
 ' Copyright and stuff
 MsgBox "Copyright 2025 super_man2775. For extra support: send a message on Discord to '@super_man2775.'. The point behind my name is important!"
