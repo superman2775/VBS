@@ -10,7 +10,7 @@ Do
     Dim antwoord1
     antwoord1 = InputBox("Zeg eens A", "Quiz - Vraag 1")
 
-    If LCase(antwoord1) = "A" Then
+    If antwoord1 = "A" Then
         MsgBox "Correct!", vbInformation, "Goed gedaan"
         score = score + 1
         Exit Do
