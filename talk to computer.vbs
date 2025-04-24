@@ -1,0 +1,1 @@
+CreateObject("sapi.spvoice").Speak InputBox("Enter your text","Talk it")
