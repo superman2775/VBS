@@ -24,7 +24,7 @@ Do
     Dim antwoord2
     antwoord2 = InputBox("Zeg eens B", "Quiz - Vraag 2")
 
-     If LCase(antwoord1) = "b" Then
+     If LCase(antwoord2) = "b" Then
         MsgBox "Correct!", vbInformation, "Goed gedaan"
         score = score + 1
         Exit Do
